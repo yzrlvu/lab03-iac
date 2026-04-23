@@ -1,1 +1,1 @@
-variable "api-port" {}
+variable "api_port" {}
