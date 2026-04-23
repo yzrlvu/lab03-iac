@@ -4,6 +4,7 @@ resource "docker_container" "api" {
 
   ports {
     internal = "3000"
-    external = var.api_port
+    external = var.api_port[terraform.workspace]
   }
 }
+
